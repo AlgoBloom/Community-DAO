@@ -9,11 +9,11 @@ on_creation = Seq(
     # Global byteslice 2
     App.globalPut(Bytes("Option A"), Bytes("Details for option A.")),
     # Global byteslice 3
-    App.globalPut(Bytes("Option A"), Bytes("Details for option A.")),
+    App.globalPut(Bytes("Option B"), Bytes("Details for option B.")),
     # Global byteslice 4
-    App.globalPut(Bytes("Option A"), Bytes("Details for option A.")),
+    App.globalPut(Bytes("Option C"), Bytes("Details for option C.")),
     # Global byteslice 5
-    App.globalPut(Bytes("Option A"), Bytes("Details for option A.")),
+    App.globalPut(Bytes("Option D"), Bytes("Details for option D.")),
     # Global int 1
     App.globalPut(Bytes("A_Count"), Int(0)),
     
