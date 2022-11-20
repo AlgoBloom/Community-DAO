@@ -1,5 +1,6 @@
 # How do we use one global variable to represent a vote and a count?
 # I think in this case I need to use a global integer to represent the count of each vote
+# do we need local state for anything? I dont think so
 
 from pyteal import *
 
